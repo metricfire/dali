@@ -1,0 +1,24 @@
+Source: dali
+Section: misc
+Priority: optional
+Maintainer: Metricfire Package Maintainer <packaging@metricfire.com>
+Build-Depends:
+    debhelper (>= 6.0.0),
+    node (>= 0.6.0)
+Standards-Version: 3.9.1
+
+Package: dali
+Architecture: all
+Depends:
+    ${misc:Depends},
+    node-auto-sprintf,
+    node-auto-ain2,
+    node-auto-commander,
+    node-auto-daemon,
+    node-auto-jsdom,
+    node-auto-metricfire,
+    node (>= 0.6.0)
+Description: Executes highcharts charts and serves SVG images
+ Accepts complete highcharts configuration JSON documents, renders the
+ chart and returns the resulting SVG data.
+ See www.metricfire.com for details.

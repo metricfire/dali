@@ -1,0 +1,29 @@
+dali (0.1.4) unstable; urgency=low
+
+  * Adding Metricfire instrumentation.
+
+ -- Metricfire Package Maintainer <packaging@metricfire.com>  Thu, 17 May 2012 03:00:00 +0000
+dali (0.1.3) unstable; urgency=low
+
+  * Fixing bug where the chart config was not being considered part of the
+    graph hash, and causing data leaking between rendered charts.
+  * Fixing bug in postinst script where dali was not being restarted after
+    a package upgrade.
+
+ -- Metricfire Package Maintainer <packaging@metricfire.com>  Mon, 20 Feb 2012 17:00:00 +0000
+dali (0.1.2) unstable; urgency=low
+
+  * Adding tiny UTC timestamp to the lower right corner of each rendered chart
+
+ -- Metricfire Package Maintainer <packaging@metricfire.com>  Mon, 20 Feb 2012 03:13:00 +0000
+dali (0.1.1) unstable; urgency=low
+
+  * Fixed failure to start after /var/run gets cleaned on boot.
+
+ -- Metricfire Package Maintainer <packaging@metricfire.com>  Sun, 19 Feb 2012 22:40:00 +0000
+dali (0.1.0) unstable; urgency=low
+
+  * Initial release.
+
+ -- Metricfire Package Maintainer <packaging@metricfire.com>  Wed, 15 Feb 2012 00:30:00 +0000
+

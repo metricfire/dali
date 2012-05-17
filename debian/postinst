@@ -1,0 +1,6 @@
+#!/bin/bash
+
+chown nobody:nogroup /var/run/dali/
+
+/etc/init.d/dali start
+
