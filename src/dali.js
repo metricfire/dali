@@ -29,7 +29,7 @@ args
    .option('-d, --daemonise', 'Daemonise')
    .option('-c, --config_path <path>', 'Path to configuration file', '/etc/dali.conf')
    .option('-p, --pidfile <path>', 'Path to pidfile', '/var/run/dali/dali.pid')
-   .version('0.1.4')
+   .version('0.1.5')
    ;
 
 // Reach into commander's arg parsing datastructures and force the daemonise

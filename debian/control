@@ -17,6 +17,7 @@ Depends:
     node-auto-daemon,
     node-auto-jsdom,
     node-auto-metricfire,
+    node-auto-timezone-js,
     node (>= 0.6.0)
 Description: Executes highcharts charts and serves SVG images
  Accepts complete highcharts configuration JSON documents, renders the

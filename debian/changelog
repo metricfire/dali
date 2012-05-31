@@ -1,3 +1,8 @@
+dali (0.1.5) unstable; urgency=low
+
+  * Adding support for specifying a presentation timezone.
+
+ -- Metricfire Package Maintainer <packaging@metricfire.com>  Thu, 31 May 2012 02:30:00 +0000
 dali (0.1.4) unstable; urgency=low
 
   * Adding Metricfire instrumentation.
