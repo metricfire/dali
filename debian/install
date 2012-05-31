@@ -1,5 +1,6 @@
 conf/dali.conf /etc/
 src/dali /usr/bin/
+lib/tzdata/ /usr/share/dali/
 lib/libdali.js /usr/share/dali/
 lib/highcharts-2.1.9.src.patched.js /usr/share/dali/
 lib/jquery-1.7.1.js /usr/share/dali/
