@@ -29,7 +29,7 @@ args
    .option('-d, --daemonise', 'Daemonise')
    .option('-c, --config_path <path>', 'Path to configuration file', '/etc/dali.conf')
    .option('-p, --pidfile <path>', 'Path to pidfile', '/var/run/dali/dali.pid')
-   .version('0.1.5')
+   .version('0.1.6')
    ;
 
 // Reach into commander's arg parsing datastructures and force the daemonise
@@ -94,7 +94,7 @@ var server = http.createServer(function (req, res) {
       graphhash_md5.update(JSON.stringify(body.config));
       var graphhash = graphhash_md5.digest('hex');
 
-      console.info(sprintf("Rendering %s at %dx%d", graphhash, body.width, body.height));
+      util.debug(sprintf("Rendering %s at %dx%d", graphhash, body.width, body.height));
       
       libdali.render(graphhash, body, function(err, svg) {
       	if (err) {
