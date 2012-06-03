@@ -1,6 +1,7 @@
 {
 "width": 500,
 "height": 200,
+"tz": "Europe/Dublin",
 "config": {
        "chart": {
            "renderTo": "container",
