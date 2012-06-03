@@ -89,7 +89,6 @@ var server = http.createServer(function (req, res) {
       // chart object will be reused later if the request is repeated.
       // Include everything but the data, which will be added to the chart later.
       var graphhash_md5 = crypto.createHash('md5');
-      graphhash_md5.update(String(body.userid));
       graphhash_md5.update(String(body.width));
       graphhash_md5.update(String(body.height));
       graphhash_md5.update(JSON.stringify(body.config));
