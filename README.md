@@ -27,6 +27,7 @@ All dependencies are available from npm:
 * daemon
 * jsdom
 * metricfire
+* timezone-js
 
 # Configuration
 
